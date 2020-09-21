@@ -2,9 +2,10 @@
   "name": "phaser3-typescript-cordova-template",
   "version": "1.0.0",
   "description": "Template for multi-platform (mobile, tablet, browser etc.) games using Phaser3 and TypeScript.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ./tsconfig.build.json"
+    "build": "tsc -p ./tsconfig.build.json && cp -r ./src/index.html www/"
   },
   "keywords": [
     "ecosystem:cordova"
