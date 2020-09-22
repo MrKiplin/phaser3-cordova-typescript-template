@@ -18,4 +18,9 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "www"),
   },
+  devServer: {
+    contentBase: path.join(__dirname, "www"),
+    compress: true,
+    port: 9000,
+  },
 };
