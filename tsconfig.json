@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
@@ -12,6 +15,7 @@
     "jsx": "react",
     "outDir": "www",
     "baseUrl": "./src",
+    "allowJs": true,
     "paths": {
       "~/*": ["./*"]
     },
