@@ -1,4 +1,4 @@
-# Phaser3 + TypeScript + Parcel Template
+# Phaser3 + Cordova TypeScript Template
 
 > For people who want to build Phaser3 games for multiple platforms, mobile, tablet, browser etc.
 
