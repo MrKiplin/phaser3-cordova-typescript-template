@@ -58,8 +58,8 @@ yarn lint
 
 ### Secondary Tooling
 
-- [cordova](cordova)
-- [webpack]()
+- [cordova](https://cordova.apache.org/)
+- [webpack](https://webpack.js.org/)
 - [yarn](https://yarnpkg.com/lang/en/) - Typescript package management
 
 ## Authors
